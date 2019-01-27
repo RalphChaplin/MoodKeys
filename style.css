@@ -1,0 +1,72 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  transition: background-color .4s ease;
+  background: #ded9d6;
+  font-family: sans-serif;
+}
+
+
+
+.allKeys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding-top: 35em;
+
+}
+
+.keys1, .keys2 {
+  display: flex;
+  flex: 1;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.key {
+  border: .4rem solid white;
+  border-radius: 1.5rem;
+  margin: 1%;
+  font-size: 1.5rem;
+  padding: 0rem;
+  width: 3.8em;
+  height: 3.8em;
+  text-align: center;
+  line-height: .01rem;
+  color: white;
+  background: rgba(0,0,0,0.4);
+}
+
+.pressed {
+  border: .4rem solid white;
+  border-radius: 1.5rem;
+  margin: 1%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0rem;
+  width: 3.8em;
+  height: 3.8em;
+  text-align: center;
+  line-height: .01rem;
+  background: white;
+  color: grey;
+}
+
+
+.letter {
+  display: block;
+  font-size: 200%;
+  margin-top: .65em;
+}
+
+.color {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-top: -.7em;
+}
